@@ -12,6 +12,6 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^5.0.5"
+    "mongoose": "^5.4.19"
   }
 }
