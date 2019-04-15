@@ -1,0 +1,8 @@
+<p> HI am the CSCI E31 Component</p>
+There are {{ getNumberOfPhotos() }} photos.
+<p>Total Votes Received: {{ totalVotes }}, Most Recent Vote Recipient: {{ mostRecentVotedOn }}</p>
+<app-photo
+  *ngFor='let photoObject of photoList'
+  [photo]="photoObject"
+  (upvotedEvent)="handleUpvoted($event)">
+</app-photo>
